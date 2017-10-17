@@ -67,8 +67,8 @@ var outputFile *string
 
 
 func main() {
-	templatePath = flag.String("f", "./tpl/MessageIDs.as", " -f your_template_file_name")
-	outputFile = flag.String("t", "./js/map/MessageIDs.as", " -t your_output_file")
+	templatePath = flag.String("f", "./tpl/MessageIDs.java", " -f your_template_file_name")
+	outputFile = flag.String("t", "./java/map/MessageIDs.java", " -t your_output_file")
 	idFile = flag.String("j", "./mapids.js", "-j js_file")
 	jsonFile := flag.String("data", "./msg.json", " -data your_data_file")
 	flag.Parse()
